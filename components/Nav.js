@@ -4,6 +4,10 @@ import styles from './Nav.module.css'
 import Link from 'next/link'
 
 export default function Nav(){
+
+    const inactivelink = styles.inactivelink
+    const activelink = styles.activelink
+
     return(
         <div>
             <div className={styles.navColor}>
@@ -12,7 +16,7 @@ export default function Nav(){
                     <p>E-Commerce Admin</p>
                 </Link>
                 <nav>
-                <Link href={'/'} className="flex items-center pt-4"> <HiHome/><p>Dashboard</p></Link>
+                <Link href={'/'} className={activelink}> <HiHome/><p>Dashboard</p></Link>
                 <Link href={'/'} className="flex items-center pt-4"> <HiClipboardDocumentList/><p>Orders</p></Link>
                 <Link href={'/'} className="flex items-center pt-4"> <HiOutlineTicket/><p>Tickets</p></Link>
                 <Link href={'/'} className="flex items-center pt-4"> <FiSettings/><p>Settings</p></Link>

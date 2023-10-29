@@ -18,9 +18,9 @@ export default function Home() {
 
   return (
     <div className='bg-blue-900 min-h-screen'>
-      <div className="flex justify-between">
+      <div className="flex">
         <Nav/>
-        <div>
+        <div className="flex-grow bg-white mt-2 mr-2 rounded-lg p-4">
           logged in as {session.user.email} 
         </div>
       </div>

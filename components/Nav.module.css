@@ -1,13 +1,23 @@
 .navColor{
-    width: 250px;
+    width: 270px;
     height: 100vh;
-    background: crimson;
     color: white;
     padding: 20px;
 }
 
 .navColor a{
-    padding-bottom: 20px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.navColor a:hover{
+    padding: 5px;
+    margin: 20px;
+    /* display: flex;
+    align-items: center; */
+    color: #1e3a8a;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .navColor a p{
@@ -17,4 +27,16 @@
 .navSet{
     display: flex;
     flex-direction: column;
+}
+
+.inactivelink{
+
+}
+
+.activelink{
+    display: flex;
+    align-items: center;
+    color: #1e3a8a;
+    background-color: white;
+    border-radius: 15px;
 }
