@@ -30,6 +30,11 @@
 }
 
 .inactivelink{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #1e3a8a;
+    border-radius: 15px;
 
 }
 
