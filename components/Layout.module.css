@@ -1,0 +1,33 @@
+.login{
+    background-color: #1e3a8a;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login button{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.layout{
+    background-color: #1e3a8a;
+    min-height: 100vh;
+}
+
+.box{
+    display: flex;
+}
+
+.innerBox{
+    flex-grow: 1;
+    background-color: white;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}

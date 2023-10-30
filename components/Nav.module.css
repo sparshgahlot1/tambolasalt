@@ -10,6 +10,14 @@
     margin: 20px;
 }
 
+.banner{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #1e3a8a;
+    border-radius: 15px;
+}
+
 .navColor a:hover{
     padding: 5px;
     margin: 20px;

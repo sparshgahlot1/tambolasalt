@@ -16,14 +16,14 @@ export default function Nav(){
     return(
         <div>
             <div className={styles.navColor}>
-                <Link href={'/'} className="flex items-center">
+                <Link href={'/'} className={styles.banner}>
                     <HiMiniBuildingStorefront/>
-                    <p>E-Commerce Admin</p>
+                    Tambola Admin
                 </Link>
                 <nav>
                 <Link href={'/'} className={pathname === '/' ? activelink:inactivelink}> <HiHome/><p>Dashboard</p></Link>
-                <Link href={'/orders'} className={pathname.includes('/orders') ? activelink:inactivelink}> <HiClipboardDocumentList/><p>Orders</p></Link>
                 <Link href={'/contest'} className={pathname.includes('/contest') ? activelink:inactivelink}> <BsFillBookmarkStarFill/><p>Contest</p></Link>
+                <Link href={'/orders'} className={pathname.includes('/orders') ? activelink:inactivelink}> <HiClipboardDocumentList/><p>Orders</p></Link>
                 <Link href={'/tickets'} className={pathname.includes('/tickets') ? activelink:inactivelink}> <HiOutlineTicket/><p>Tickets</p></Link>
                 <Link href={'/settings'} className={pathname.includes('/settings') ? activelink:inactivelink}> <FiSettings/><p>Settings</p></Link>
             </nav>
