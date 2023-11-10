@@ -16,5 +16,5 @@ h1{
 }
 
 label{
-    @apply text-blue-900
+    @apply mt-4 text-blue-900
 }
